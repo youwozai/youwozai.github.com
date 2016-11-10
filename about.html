@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <div ng-include="'~/../Common/top.html'"></div>
+    <link href="~/../stylesheets/aboutSite.css" rel="stylesheet" />
+    <script src="~/../javascripts/move.js"></script>
+    <script src="~/../javascripts/angular.min.js"></script>
+</head>
+<body ng-app="">
+<div ng-include="'~/../Common/header.html'"></div>
+    <div id="body">
+        <div class="down">
+            <div id="tabmenu">
+                <ul>
+                    <li id="m1" class="on" style="background-color:gray">
+                        <a href="#" onmouseover="javascript:gopage(1)">联系方式</a>
+                    </li>
+                    <li id="m2"><a href="#" onmouseover="javascript:gopage(2)">个人简介</a>
+                    </li>
+                    <li id="m3"><a href="#" onmouseover="javascript:gopage(3)">和我交流</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="tabcontent">
+                <div id="c1">
+                    <div ng-include="'~/../About/c1.html'"></div>
+                </div>
+                <div id="c2" style="display: none;">
+                    <div ng-include="'~/../About/c2.html'"></div>
+                </div>
+                <div id="c3" style="display: none">
+                    <div ng-include="'~/../About/c3.html'"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div ng-include="'~/../Common/foot.html'"></div>
