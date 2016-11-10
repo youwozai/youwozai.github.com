@@ -1,0 +1,53 @@
+﻿body,div,dl,dt,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+    margin:0;padding: 0;
+}
+p{
+    margin-top: 20px;
+}
+body{
+            padding:  auto 3%;
+            font-family: KaiTi;
+            font-size: 1em;
+            color: #FFFFFF;
+            background-color: #000000;
+        }
+
+        a
+        {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        #body
+        {
+            margin: 0px 20px;
+        }	 /*头部*/
+        #header
+        {
+            background-color: gray;
+        }
+        .indextop{
+            overflow: hidden;
+        }
+        .indextop ul{
+            padding-right: 5%;
+            padding-left: 5%;
+            margin:  0 4%;
+            overflow: hidden;
+        }
+                .indextop ul li
+                {
+                    padding-right: 10px;
+                    height: 55px;
+                    float: left;
+                    list-style-type: none;
+                    font-size: 28px;
+                }
+				.y
+				{
+				color:yellow;
+				}
+				.w
+				{
+				color:#fff;
+				}
