@@ -1,6 +1,15 @@
 ﻿body,div,dl,dt,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
     margin:0;padding: 0;
 }
+.shu .item{
+       overflow: hidden; width: 140px; height: 250px;
+    }
+    .shu .item p{
+        margin-top: 0px; font-size: 20px; overflow: hidden; text-align: center;
+    }
+    .shu .item img{
+        width:141px;
+    }
 p{
     margin-top: 20px;
 }
