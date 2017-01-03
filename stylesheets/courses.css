@@ -1,0 +1,13 @@
+.itemRight span{
+    display: block;
+    float: left;
+    margin: 10px;
+}
+
+.itemRight span a{
+    text-decoration: none;
+}
+
+.itemRight span a:hover{
+    color: red;
+}

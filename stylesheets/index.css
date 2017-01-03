@@ -1,0 +1,100 @@
+body, div, dl, dt, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: 10px 7%;
+}
+
+header {
+    overflow: hidden;
+    border: 1px solid mediumturquoise;
+    border-radius: 10px;
+}
+
+header div {
+    margin: 10px 10px 10px 20px;
+    float: left;
+}
+
+nav ul {
+    margin-right: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 10px;
+    float: right;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+}
+#main {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#main .right ul {
+    padding-left: 5px;
+}
+
+#main .right ul li {
+    list-style-type: none;
+}
+
+#main .left {
+    width: 28%;
+    float: left;
+}
+
+#main .right {
+    width: 70%;
+    float: right;
+}
+
+.item {
+    border: 1px solid #bce8f1;
+    margin: 5px 5px 10px 5px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.item p {
+    margin: 10px 5px;
+}
+
+.title {
+    background-color: #d9edf7;
+    text-align: center;
+    padding: 10px;
+}
+
+.itemRight {
+    margin: 5px 5px 10px 5px;
+    border: 1px solid #bce8f1;
+    border-radius: 10px;
+}
+
+.itemRight p {
+    margin: 10px 5px;
+}
+
+.itemRight div {
+    padding: 10px;
+    background-color: #d9edf7;
+}
+
+footer {
+    border: 1px solid #d9edf7;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}

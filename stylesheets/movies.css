@@ -1,0 +1,24 @@
+.items{
+    overflow: hidden;
+    border: 1px solid #d9edf7;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.down{
+    margin: 10px ;
+}
+.items a{
+    float: left;
+    height:230px;
+    text-decoration: none;
+    margin-right: 13px;
+}
+
+.items a p{
+    text-align: center;
+    width: 141px;
+}
+
+.items a img{
+    width: 141px;
+}
