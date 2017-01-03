@@ -1,21 +1,23 @@
-<html>
-  <head>
-    <title>页面被抓走了啊</title>
-    <style type="text/css">
-      .content
-      {
-        font-size:28px;
-        margin:10% 25%;
-        color:blue;
-      } 
-    </style>
-  </head>
-  <body>
-   <div class="content">
-      天呐！这个页面竟然被外星人抓走了？难道真的有外星人？
+<div ng-include="'~/../Common/top.html'"></div>
+<title>404--乌发舞天</title>
+<script src="javascripts/angular.min.js"></script>
+<style type="text/css">
+    .content {
+        font-size: 28px;
+        margin: 10% 25%;
+        color: blue;
+    }
+</style>
+</head>
+<body ng-app="">
+<div id="container">
+    <div ng-include="'~/../Common/header.html'"></div>
+    <div id="main">
+        <div class="content">
+            天呐！这个页面竟然被外星人抓走了？难道真的有外星人？
+        </div>
     </div>
-    <div style="text-alin:center">
-      <a style="font-size:28px;margin:20px 25%;text-decoration:none; color:red;" href="https://youwozai.github.io">点击即可返回网站首页</a>
-    </div>
-  </body>
+    <div ng-include="'~/../Common/footer.html'"></div>
+</div>
+</body>
 </html>
