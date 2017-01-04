@@ -2,6 +2,51 @@
 <title>经典电影--乌发舞天</title>
 <script src="javascripts/angular.min.js"></script>
 <link rel="stylesheet" href="stylesheets/movies.css">
+<style type="text/css">
+    @media only screen and (max-width: 500px) {
+        header div {
+            margin: 10px 10px 10px 20px;
+            float: none;
+        }
+
+        nav ul {
+            width: 100%;
+            margin: 0px 15px 10px;
+        }
+
+        nav ul li {
+            margin: 0px 5px 5px 0px;
+            float: left;
+        }
+
+        #container {
+            margin: 10px;
+        }
+
+        #main .left {
+            width: 100%;
+            padding-left: 0px;
+            float: none;
+        }
+
+        #main .right {
+            width: 100%;
+            float: none;
+        }
+    }
+
+    @media only screen and (max-width:1065px ) and (min-width:930px ){
+        #container {
+            margin: 10px 3%;
+        }
+    }
+
+    @media only screen and (max-width:930px ) and (min-width:500px ){
+        #container {
+            margin: 10px 1%;
+        }
+    }
+</style>
 </head>
 <body ng-app="">
 <div id="container">
