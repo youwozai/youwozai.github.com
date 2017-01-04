@@ -2,11 +2,13 @@
     text-decoration: none;
     text-align: center;
     float:left;
-    padding:5px;
+    margin:6px;
 }
 
 .itemRight p{
     overflow: hidden;
+    margin: 0px;
+    padding: 0px;
 }
 .itemRight a:hover{
     color: red;
@@ -14,5 +16,5 @@
 
 .itemRight img{
     width: 141px;
-    height:230px;
+    height:220px;
 }
