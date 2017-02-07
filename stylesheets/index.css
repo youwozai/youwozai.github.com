@@ -4,7 +4,7 @@ body, div, dl, dt, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset
 }
 
 #container {
-    margin: 10px 7%;
+    margin: 10px 5%;
 }
 
 header {
@@ -48,12 +48,12 @@ nav ul li a:hover{
 }
 
 #main .left {
-    width: 28%;
+    width: 27%;
     float: left;
 }
 
 #main .right {
-    width: 70%;
+    width: 72%;
     float: right;
 }
 
